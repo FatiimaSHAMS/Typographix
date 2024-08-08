@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typographix</title>
+
+    <link rel="icon" type="image/svg"  href="favicon.svg">
+    <link rel="stylesheet" href="scrollbar.css">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <nav id="nav">
+            <ul>
+              <li><a href="#section-1" onclick="hideMenu()">Home</a></li>
+              <li><a href="#section-2" onclick="hideMenu()">About</a></li>
+              <li><a href="#section-3" onclick="hideMenu()">Gallery</a></li>
+              <li><a href="#section-4" onclick="hideMenu()">Blog</a></li>
+              <li><a href="#section-5" onclick="hideMenu()">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+    <main>
+        <!-- Section1 -->
+        <section id="section-1">
+            <!-- Dark Mode Switch -->
+            <div id="theme-switcher" class="theme-switcher">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun"></i>
+            </div>  
+            
+            
+            <!-- Header -->
+            <header class="header">
+                <h1>Typogarphix</h1>
+                <div class="social-media-icons">
+                    <i class="fa-brands fa-facebook title="Facebook"></i>
+                    <i class="fa-brands fa-instagram title="Instagram"></i>
+                    <i class="fa-brands fa-x-twitter title="Twitter"></i>
+                    <i class="fa-brands fa-youtube title="youtube"></i>
+                    <i class="fa-brands fa-github title="Github"></i>
+                </div>
+            </header>
+        </section>
+
+        <!-- Section2 -->
+         <section id="section-2">
+            <h2>Cussting Edage Imgae & Text Generation</h2>
+            <img src="https://unsplash.com/photos/p0j-mE6mGo4/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzIyODc5MjExfA&force=true&w=2400" alt="Retro Gaming Setup" class="main-image">
+         </section>
+
+        <!-- Section3 -->
+         <section id="section-3">
+            <h2>Gallery (Comming Soon)</h2>
+            <div class="image-container">
+               <img src="https://unsplash.com/photos/yP89apz2TAA/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzIyODc5MjgzfA&force=true&w=1920" alt="Retro Computer" class="small-image"> 
+               <img src="https://unsplash.com/photos/yP89apz2TAA/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzIyODc5MjgzfA&force=true&w=1920" alt="Retro Computer" class="small-image"> 
+               <img src="https://unsplash.com/photos/yP89apz2TAA/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzIyODc5MjgzfA&force=true&w=1920" alt="Retro Computer" class="small-image"> 
+            </div>
+         </section>
+         
+         <!-- Section4 -->
+          <section id="section-4">
+            <h2>Blog Updates (Coming Soon)</h2>
+            <div class="blog-container">
+               <article class="blog-item">
+                <h3><a href="/">Blog Item 1 Here</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure corporis ducimus voluptatem, sed repellendus hic illo sint eaque sapiente, distinctio, praesentium necessitatibus atque eligendi porro repellat obcaecati optio rerum officiis?</p>
+               </article>
+               <article class="blog-item">
+                <h3><a href="/">Blog Item 2 Here</a></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto recusandae quasi quae facilis molestiae ab. Impedit dolores deleniti pariatur vel amet laborum soluta, ad natus aliquid minus nesciunt excepturi illum!</p>
+               </article> 
+               <article class="blog-item">
+                <h3><a href="/">Blog Item 3 Here</a></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi quidem aut tempora veritatis ad neque delectus, voluptatum officia atque doloremque cumque rerum ducimus tempore placeat dolores distinctio quod fugit.</p>
+               </article>  
+            </div>
+          </section>
+
+          <!-- Section5 -->
+           <section id="section-5">
+            <h2><a href="mailto:example@example.com">Contact Us</a></h2>
+            <!-- Wave -->
+             <div class="wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#588157" fill-opacity="1" d="M0,96L24,90.7C48,85,96,75,144,69.3C192,64,240,64,288,96C336,128,384,192,432,181.3C480,171,528,85,576,42.7C624,0,672,0,720,32C768,64,816,128,864,128C912,128,960,64,1008,42.7C1056,21,1104,43,1152,85.3C1200,128,1248,192,1296,192C1344,192,1392,128,1416,96L1440,64L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#344E41" fill-opacity="1" d="M0,256L21.8,218.7C43.6,181,87,107,131,69.3C174.5,32,218,32,262,53.3C305.5,75,349,117,393,117.3C436.4,117,480,75,524,74.7C567.3,75,611,117,655,154.7C698.2,192,742,224,785,240C829.1,256,873,256,916,234.7C960,213,1004,171,1047,144C1090.9,117,1135,107,1178,96C1221.8,85,1265,75,1309,74.7C1352.7,75,1396,85,1418,90.7L1440,96L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z"></path></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3A5A40" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,229.3C384,235,480,277,576,266.7C672,256,768,192,864,176C960,160,1056,192,1152,218.7C1248,245,1344,267,1392,277.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>    
+             </div>
+            <!-- Footer -->
+            <footer class="footer">
+                <small>&copy; 2024 Typographix. All rights reserved.</small>
+            </footer>
+            
+           </section>
+         
+    </main>
+    <!-- Script -->  
+    <script src="https://kit.fontawesome.com/2639a720fc.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
