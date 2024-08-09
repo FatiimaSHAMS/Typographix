@@ -1,5 +1,6 @@
 /* Google Font Jost */ 
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap');
+
 
 /* Colors */
 :root {
@@ -56,11 +57,11 @@ a {
     z-index: 10;
   }
   
-  .menu-icon div {
-    height: 0.25rem;
-    background-color:var(--on-background);
-    transition: all 0.3s ease-in-out;
-  }
+    .menu-icon div {
+        height: 0.25rem;
+        background-color: var(--on-background);
+        transition: all 0.3s ease-in-out;
+    }
   
   /* Rotate first bar */
   .active .bar1 {
@@ -93,8 +94,8 @@ a {
     left: 0;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
-    /* width: 200px; */
-    width: 100%;
+    width: 200px;
+    /* width: 100%; */
     background-color: var(--background);
     z-index: 2;
   }
@@ -163,7 +164,6 @@ h2 {
 
 .header h1 {
     font-size: clamp(60px, 10vw, 100px);
-    /* font-size: 100px; */
     font-weight: 500;
     font-style: italic;
     text-align: center;
@@ -175,13 +175,13 @@ h2 {
 @keyframes focuse-in-contract {
     0% {
         letter-spacing: var(--letter-sapcing-animation) ;
-        filter: blure (12px);
+        filter: blur(12px);
         opacity: 0;
     }
 
     100% {
         letter-spacing: 0;
-        filter: blure (0);
+        filter: blur(0);
         opacity: 1;
     }
 }
@@ -202,10 +202,12 @@ h2 {
 .social-media-icons i:hover {
     transform: scale(1.1);
 }
+
 /* Section 2 */
 #section-2 h2 {
     margin-top: 50px;
 }
+
 .main-image {
     height: 50%;
     width: auto;
@@ -229,9 +231,9 @@ h2 {
     border: 10px solid var(--on-background);
 }
 
-.small-image:not(:first-child) {
-    margin-left:20px;
-}
+    .small-image:not(:first-child) {
+        margin-left:20px;
+    }
 
 /* Section 4 */
 .blog-container {
@@ -240,7 +242,7 @@ h2 {
 }
 
 .blog-item {
-    margin: 50px;
+    margin-bottom: 50px;
 }
 /* Section 5 */
 .wave {
@@ -336,7 +338,7 @@ h2 {
 /* Smartphone Horizontal  */
 @media screen and (min-width:600px) and (max-width: 950px) {
     nav ul {
-        font-size:  1.25rem;
+        font-size: 1.25rem;
     }
 
     .small-image {
@@ -377,13 +379,13 @@ h2 {
 
    /* Section 3 */
    .small-image {
-    height: auto;
-    width: 75%;
-    border-width: 5px;
-    padding: 10px;
-    margin: auto 5% !important;
-    position: relative;
-    left: 3.5%;
+        height: auto;
+        width: 75%;
+        border-width: 5px;
+        padding: 10px;
+        margin: auto 5% !important;
+        position: relative;
+        left: 3.5%;
     }
 
     /* Section 4 */
