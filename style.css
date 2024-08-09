@@ -268,7 +268,7 @@ h2 {
 /* All Mobile Devices */
 @media screen and (max-width:1180px) {
     :root {
-        --letter-sapcing-animation : .1em; 
+        --letter-sapcing-animation : 0.1em; 
     }
 
     nav {
